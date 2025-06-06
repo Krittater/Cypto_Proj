@@ -9,7 +9,7 @@
 
 1. **Clone Project**
    ```sh
-   git clone <your-repo-url>
+   git clone <https://github.com/Krittater/Cypto_Proj>
    cd Cypto_Proj/back_end
    ```
 
