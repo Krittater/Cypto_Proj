@@ -22,6 +22,6 @@ router.use('/trade-offers',verifyToken, tradeOfferRoutes);
 router.use('/trade-transactions',verifyToken, tradeTransactionRoutes);
 router.use('/transfers',verifyToken, transferRoutes);
 router.use('/fiat-transactions',verifyToken, fiatTransactionRoutes);
-router.use('/api/auth',verifyToken, authRoutes);
+router.use('/api/auth', authRoutes);
 
 module.exports = router;
